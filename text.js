@@ -18,7 +18,8 @@ function submit(){
         method: 'POST',
         headers: myHeaders,
         body: raw,
-        redirect: 'follow'
+        redirect: 'follow',
+        mode: 'no-cors'
     };
 
     fetch(BASE_URL+"ai_vis_detect/post/", requestOptions)
