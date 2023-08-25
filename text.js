@@ -9,6 +9,7 @@ function submit(){
     let textInp = textBox.value
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Access-Control-Allow-Origin", "*");
     console.log("clicked")
     var raw = JSON.stringify({
         "text": textInp
@@ -19,7 +20,6 @@ function submit(){
         headers: myHeaders,
         body: raw,
         redirect: 'follow',
-        mode: 'no-cors'
     };
 
     fetch(BASE_URL+"ai_vis_detect/post/", requestOptions)
