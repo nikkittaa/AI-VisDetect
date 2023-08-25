@@ -58,16 +58,11 @@
             <p><label for="file" style="cursor: pointer;">Upload an image here to check whether it is AI generated or real</label></p>
             <input type="file"  accept="image/*" name="imageToDetect" id="file"  onchange="loadFile(event)" style="display: none;">
             <p><img id="output" width = "300"/></p>
-            <p class="imageResult"></p>
+            <p class="imageResult" id="textResultp"></p>
             <button type="button" class="btn predict">Predict</button>
         </div>
       </div>
 
-      <script>
-        var loadFile = function(event) {
-            var image = document.getElementById('output');
-            image.src = URL.createObjectURL(event.target.files[0]);
-        };
-        </script>
+      <script src="image.js" type="text/javascript"></script>
 </body>
 </html>
