@@ -1,4 +1,4 @@
-let BASE_URL="https://2eef-103-25-231-104.ngrok-free.app/"
+let BASE_URL="https://2ed0f-103-25-231-104.ngrok-free.app/"
 let textBox = document.getElementById('textInput')
 let res_p = document.getElementById('textResultp')
 // let button = document.getElementById('button')
