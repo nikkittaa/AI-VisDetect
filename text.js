@@ -1,4 +1,4 @@
-let BASE_URL="https://2ed0f-103-25-231-104.ngrok-free.app/"
+let BASE_URL=" http://127.0.0.1:8000/"
 let textBox = document.getElementById('textInput')
 let res_p = document.getElementById('textResultp')
 // let button = document.getElementById('button')
@@ -9,7 +9,6 @@ function submit(){
     let textInp = textBox.value
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
-    myHeaders.append("Access-Control-Allow-Origin", "*");
     console.log("clicked")
     var raw = JSON.stringify({
         "text": textInp

@@ -1,4 +1,4 @@
-let BASE_URL="https://9376-103-25-231-104.ngrok-free.app/"
+let BASE_URL="http://127.0.0.1:8000/"
 res_p = document.getElementById('textResultp')
 function postImage(img){
     // var myHeaders = new Headers();
@@ -6,7 +6,7 @@ function postImage(img){
 
     const formData = new FormData();
 
-    formData.append('file', img);
+    formData.append('image', img);
 
     const requestOptions = {
       method: 'POST',
