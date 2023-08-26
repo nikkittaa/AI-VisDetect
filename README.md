@@ -1,6 +1,6 @@
 # AI-VisDetect
 
-Welcome to the AI-Generated Text and Image Detection project! 🚀 In a world where AI-generated content is becoming increasingly sophisticated, it's crucial to have tools that can distinguish between genuine and AI-generated text and images. This project aims to develop a robust solution for detecting AI-generated content, helping users identify the source of the content they encounter.
+Welcome to AI-VisDetect, an AI-Generated Text and Image Detection project! 🚀 In a world where AI-generated content is becoming increasingly sophisticated, it's crucial to have tools that can distinguish between genuine and AI-generated text and images. This project aims to develop a robust solution for detecting AI-generated content, helping users identify the source of the content they encounter.
 
 ![screencapture-ai-visdetect-netlify-app-2023-08-26-05_46_20](https://github.com/nikkittaa/AI-VisDetect-Frontend/assets/118905854/f0e99a7a-c894-4a43-94ca-8720bd1b24ba)
 
