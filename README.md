@@ -2,7 +2,9 @@
 
 Welcome to AI-VisDetect, an AI-Generated Text and Image Detection project! 🚀 In a world where AI-generated content is becoming increasingly sophisticated, it's crucial to have tools that can distinguish between genuine and AI-generated text and images. This project aims to develop a robust solution for detecting AI-generated content, helping users identify the source of the content they encounter.
 
-![screencapture-ai-visdetect-netlify-app-2023-08-26-05_46_20](https://github.com/nikkittaa/AI-VisDetect-Frontend/assets/118905854/f0e99a7a-c894-4a43-94ca-8720bd1b24ba)
+
+![screencapture-ai-visdetect-netlify-app-2023-08-26-05_46_20](https://github.com/nikkittaa/AI-VisDetect/assets/118905854/9e5c02dc-d725-41e0-a81b-b94079ebcf0b)
+
 
 ## Table of Contents
 * Introduction
@@ -24,9 +26,10 @@ With the proliferation of AI models like GPT-3🤖, generating human-like text a
 
 - Accuracy and Reliability: Our detection model has been trained on a diverse dataset of AI-generated and human-generated content, ensuring accurate and reliable results.
 
-  ![screencapture-127-0-0-1-5500-text-html-2023-08-26-05_51_51](https://github.com/nikkittaa/AI-VisDetect-Frontend/assets/118905854/ed2c874a-499d-4e87-9a8b-b4842eecb9db)
+  ![screencapture-127-0-0-1-5500-text-html-2023-08-26-05_51_51](https://github.com/nikkittaa/AI-VisDetect/assets/118905854/87fdb778-6c50-414a-b00f-37e1f66ab82c)
 
-  ![screencapture-127-0-0-1-5500-image-html-2023-08-26-05_53_12](https://github.com/nikkittaa/AI-VisDetect-Frontend/assets/118905854/fd9ad706-9783-4b18-8da1-09f36dd65570)
+  ![screencapture-127-0-0-1-5500-image-html-2023-08-26-05_53_12](https://github.com/nikkittaa/AI-VisDetect/assets/118905854/51cb8c8e-eac2-425b-b085-f419045df362)
 
+  
 ## How It Works
 Our AI detection model is built upon a combination of state-of-the-art natural language processing and computer vision techniques. For text analysis, we employ a fine-tuned transformer model that has been trained on a wide range of AI-generated and human-generated texts. Similarly, our image analysis model uses convolutional neural networks to identify patterns and features that are indicative of AI generation.
